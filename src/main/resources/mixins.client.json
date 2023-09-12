@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "verbose": true,
+  "package": "net.luconia.boykisser.mixin.impl",
+  "refmap": "mixins.client.refmap.json",
+  "target": "@env(DEFAULT)",
+  "mixins": [
+    "MixinEntityPlayer",
+    "MixinEntityPlayerSP",
+    "MixinEntityRenderer",
+    "MixinGuiIngame",
+    "MixinGuiMainMenu",
+    "MixinMinecraft",
+    "MixinRenderEntityItem",
+    "MixinRenderTNTPrimed"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

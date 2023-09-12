@@ -1,0 +1,3 @@
+rootProject.name = 'BoykisserClient'
+include 'Installer'
+
